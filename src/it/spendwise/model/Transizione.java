@@ -1,3 +1,4 @@
+package it.spendwise.model;
 
 import java.util.Scanner;
 
@@ -58,7 +59,7 @@ public class Transizione {
 
     @Override
     public String toString() {
-        return "Data: " + data + ", Descrizione: " + descrizione + ", Importo: " + importo + ", Categoria: " + categoria.getNome() + ", Tipo: " + tipo;
+        return "Data: " + data + ", Descrizione: " + descrizione + ", Importo: " + importo + ", it.spendwise.model.Categoria: " + categoria.getNome() + ", Tipo: " + tipo;
     }
 
     public enum TipoTransizione{
